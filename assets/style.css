@@ -1,0 +1,59 @@
+* {
+  margin: 0 auto;
+}
+
+header {
+  height: 5rem;
+  text-align: center;
+  background: #424542;
+}
+
+h1 {
+  color: #baf193;
+  padding-top: 1%;
+  font-family: monospace;
+  font-size: 300%;
+}
+
+main {
+  padding: 2%;
+  background: #c3dcd4;
+
+
+}
+
+img {
+  background: #d3f7fb;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 15px 50px 15px;
+  border: 7px solid #1f6551;
+  filter: drop-shadow(9px 17px 8px #649c7c);
+}
+
+.student {
+  max-width: 75%;
+}
+
+li {
+  color: #ffeb3b;
+}
+
+li>a {
+  color: #eee5fb;
+}
+
+li#email {
+  background: #9b6c9a;
+  line-height: 2;
+}
+
+li#github {
+  background: #9575cd;
+  line-height: 2;
+}
+
+li#portfolio {
+  background: #5f2568;
+  line-height: 2;
+}
