@@ -1,5 +1,6 @@
 # student-bio
-Simple HTML Profile Page
+Simple HTML Profile Page. 
+Here is the [link to the deployed page](https://cyphernyx.github.io/student-bio/)
 
 ## Usage
 Sandbox enviroment to test Flex box CSS misc attributes. **Current deployement might not resemble intended wireframe.
