@@ -1,7 +1,12 @@
 * {
   margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+
 }
 
+/* Header Section with centered title */
 header {
   height: 5rem;
   text-align: center;
@@ -15,9 +20,19 @@ h1 {
   font-size: 300%;
 }
 
+/* Main Content Styling */
+h2 {
+  color: #424542;
+  font-size: 200%;
+  font-family: monospace;
+}
+
 main {
   padding: 2%;
-  background: #c3dcd4;
+  /* background: #c3dcd4; */
+  background: linear-gradient(0deg,
+      #fff 12%,
+      #c3dcd4 84%);
 
 
 }
@@ -25,35 +40,24 @@ main {
 img {
   background: #d3f7fb;
   padding: 1%;
-  margin: 1%;
+  margin: 3% 0;
   border-radius: 15px 50px 15px;
   border: 7px solid #1f6551;
   filter: drop-shadow(9px 17px 8px #649c7c);
 }
 
 .student {
-  max-width: 75%;
+  max-width: 50%;
 }
 
-li {
-  color: #ffeb3b;
-}
 
-li>a {
-  color: #eee5fb;
-}
+/* Sidebar aside */
+li {}
 
-li#email {
-  background: #9b6c9a;
-  line-height: 2;
-}
+li>a {}
 
-li#github {
-  background: #9575cd;
-  line-height: 2;
-}
+li#email {}
 
-li#portfolio {
-  background: #5f2568;
-  line-height: 2;
-}
+li#github {}
+
+li#portfolio {}
