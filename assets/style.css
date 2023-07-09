@@ -1,49 +1,54 @@
 * {
   margin: 0 auto;
-  font-family: sans-serif;
   line-height: 1.55;
   font-weight: 600;
 
 }
 
+/* font-family: 'Give You Glory', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Special Elite', cursive; */
+
 /* Header Section with centered title */
+body {
+  background-color: #fff;
+  background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  font-family: 'Indie Flower', cursive;
+}
+
 header {
-  height: 5rem;
   text-align: center;
-  background: #424542;
+  background: #086375;
+
 }
 
 h1 {
-  color: #baf193;
+  color: #f5f8f3;
   padding-top: 1%;
-  font-family: monospace;
   font-size: 300%;
+  font-family: 'Indie Flower', cursive;
 }
 
 /* Main Content Styling */
 h2 {
-  color: #424542;
+  color: #8f2d56;
   font-size: 200%;
-  font-family: monospace;
+  font-family: 'Special Elite', cursive;
 }
 
 main {
   padding: 2%;
-  /* background: #c3dcd4; */
-  background: linear-gradient(0deg,
-      #fff 12%,
-      #c3dcd4 84%);
-
-
 }
 
 img {
-  background: #d3f7fb;
   padding: 1%;
   margin: 3% 0;
   border-radius: 15px 50px 15px;
-  border: 7px solid #1f6551;
-  filter: drop-shadow(9px 17px 8px #649c7c);
+  filter: drop-shadow(6px 5px 6px #5e6472);
 }
 
 .student {
